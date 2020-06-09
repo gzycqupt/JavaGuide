@@ -28,11 +28,23 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 </p>
 
 <h3 align="center">Sponsor</h3>
-<p align="center">
-<a  href="https://mp.weixin.qq.com/s/li9_YXNVxan6Qgt3Q9FYqA">
-<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png" style="margin: 0 auto;width:400px"/>
-</a >
-</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://mp.weixin.qq.com/s/li9_YXNVxan6Qgt3Q9FYqA">
+          <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png" style="margin: 0 auto;width:400px" /></a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://github.com/yaonphy/Job-Hunt/blob/master/README.md" target="_blank">
+          <img src="https://6a6f-job-hunt-bvzy1-1259590017.tcb.qcloud.la/adForGithub/jobhunt-javaguide400.png" style="margin: 0 auto;width:400px" /></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 ## 目录
 
@@ -54,7 +66,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 - [系统设计](#系统设计)
     - [必知](#必知)
     - [常用框架](#常用框架)
-        - [Spring](#spring)
+        - [Spring](#springspringboot)
         - [SpringBoot](#springboot)
         - [MyBatis](#mybatis)
     - [认证授权(JWT、SSO)](#认证授权)
@@ -80,7 +92,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 - [面试指南](#面试指南)
 - [Java学习常见问题汇总](#java学习常见问题汇总)
 - [资源](#资源)
-    - [书单推荐](#书单推荐)
+    - [Java程序员必备书单](#java程序员必备书单)
     - [实战项目推荐](#实战项目推荐)
 - [待办](#待办)
 - [说明](#说明)
@@ -93,8 +105,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 1. **[Java 基础知识](docs/java/Java基础知识.md)**
 2. **[Java 基础知识疑难点/易错点](docs/java/Java疑难点.md)**
-3. **Java常见编程题** ：[一些重要的Java程序设计题](docs/java/java-programming-problem/Java程序设计题.md)、[手把手教你实现线程安全并且可以设置过期时间的LRU缓存。安排！](docs/java/java-programming-problem/a-thread-safe-implementation-of-lru-cache.md)
-4. [【选看】J2EE 基础知识](docs/java/J2EE基础知识.md)
+3. [【选看】J2EE 基础知识](docs/java/J2EE基础知识.md)
 
 **重要知识点详解：**
 
@@ -105,6 +116,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 **其他：**
 
 1. [JAD反编译](docs/java/JAD反编译tricks.md)
+2. [手把手教你定位常见Java性能问题](./docs/java/手把手教你定位常见Java性能问题.md)
 
 ### 容器
 
@@ -162,6 +174,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 * [后端程序员必备的 Linux 基础知识](docs/operating-system/linux.md)  
 * [Shell 编程入门](docs/operating-system/Shell.md) 
+* [完全使用GNU_Linux学习](docs/operating-system/完全使用GNU_Linux学习.md)
 
 ## 数据结构与算法
 
@@ -184,13 +197,19 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 ### MySQL
 
+**总结：**
+
 1. **[【推荐】MySQL/数据库 知识点总结](docs/database/MySQL.md)**
 2. **[阿里巴巴开发手册数据库部分的一些最佳实践](docs/database/阿里巴巴开发手册数据库部分的一些最佳实践.md)**
 3. **[一千行MySQL学习笔记](docs/database/一千行MySQL命令.md)**
 4. [MySQL高性能优化规范建议](docs/database/MySQL高性能优化规范建议.md)
-5. [数据库索引总结1](docs/database/MySQL%20Index.md)、[数据库索引总结2](docs/database/数据库索引.md)
-6. [事务隔离级别(图文详解)](docs/database/事务隔离级别(图文详解).md)
-7. [一条SQL语句在MySQL中如何执行的](docs/database/一条sql语句在mysql中如何执行的.md)
+
+**重要知识点：**
+
+1. [数据库索引总结1](docs/database/MySQL%20Index.md)、[数据库索引总结2](docs/database/数据库索引.md)
+2. [事务隔离级别(图文详解)](docs/database/事务隔离级别(图文详解).md)
+3. [一条SQL语句在MySQL中如何执行的](docs/database/一条sql语句在mysql中如何执行的.md)
+4. **[关于数据库中如何存储时间的一点思考](docs/database/关于数据库存储时间的一点思考.md)**
 
 ### Redis
 
@@ -212,18 +231,20 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 ### 必知
 
 1. **[RestFul API 简明教程](docs/system-design/restful-api.md)**
+2. **[因为命名被diss无数次。Guide简单聊聊编程最头疼的事情之一:命名](docs/system-design/naming.md)**
 
 ### 常用框架
 
 #### Spring/SpringBoot
 
-1. [Spring 学习与面试(待重构)](docs/system-design/framework/spring/Spring.md)
-2. **[Spring 常见问题总结](docs/system-design/framework/spring/SpringInterviewQuestions.md)**
+1. **[Spring 常见问题总结](docs/system-design/framework/spring/SpringInterviewQuestions.md)**
+3. **[SpringBoot 指南/常见面试题总结](https://github.com/Snailclimb/springboot-guide)**
 3. **[Spring/Spring常用注解总结！安排！](./docs/system-design/framework/spring/spring-annotations.md)**
-4. **[SpringBoot 指南/常见面试题总结](https://github.com/Snailclimb/springboot-guide)**
-5. [Spring中 Bean 的作用域与生命周期](docs/system-design/framework/spring/SpringBean.md)
-6. [SpringMVC 工作原理详解](docs/system-design/framework/spring/SpringMVC-Principle.md)
-7. [Spring中都用到了那些设计模式?](docs/system-design/framework/spring/Spring-Design-Patterns.md)
+4. **[Spring事务总结](docs/system-design/framework/spring/spring-transaction.md)**
+5. [Spring IoC 和 AOP详解](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486938&idx=1&sn=c99ef0233f39a5ffc1b98c81e02dfcd4&chksm=cea24211f9d5cb07fa901183ba4d96187820713a72387788408040822ffb2ed575d28e953ce7&token=1666190828&lang=zh_CN#rd)
+6. [Spring中 Bean 的作用域与生命周期](docs/system-design/framework/spring/SpringBean.md)
+7. [SpringMVC 工作原理详解](docs/system-design/framework/spring/SpringMVC-Principle.md)
+8. [Spring中都用到了那些设计模式?](docs/system-design/framework/spring/Spring-Design-Patterns.md)
 
 #### MyBatis
 
@@ -373,11 +394,9 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 ## 资源
 
-### 书单推荐
+### Java程序员必备书单
 
-- **[多线程学习书籍+资源推荐](./docs/java/Multithread/多线程学习指南.md)**
-- **[算法学习书籍+资源推荐](docs/dataStructures-algorithms/算法学习资源推荐.md)**  
-- **[Java程序员必备书单](docs/books/java.md)**
+1. [「基础篇」Guide的Java后端书架来啦！都是Java程序员必看的书籍？](./docs/books/java基础篇.md)
 
 ### 实战项目推荐
 
@@ -413,6 +432,8 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 
 利用 docsify 生成文档部署在 Github pages: [docsify 官网介绍](https://docsify.js.org/#/) ，另见[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 。
 
+Logo下的小图标是使用[Shields.IO](https://shields.io/) 生成的。
+
 ### 关于转载
 
 如果你需要转载本仓库的一些文章到自己的博客的话，记得注明原文地址就可以了。
@@ -431,11 +452,11 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 
 下面是笔主收集的一些对本仓库提过有价值的pr或者issue的朋友，人数较多，如果你也对本仓库提过不错的pr或者issue的话，你可以加我的微信与我联系。下面的排名不分先后！
 
-<a href="https://github.com/fanofxiaofeng">
-    <img src="https://avatars0.githubusercontent.com/u/3983683?s=460&v=4" width="45px">
-</a>
 <a href="https://github.com/LiWenGu">
     <img src="https://avatars0.githubusercontent.com/u/15909210?s=460&v=4" width="45px">
+</a>
+<a href="https://github.com/fanofxiaofeng">
+    <img src="https://avatars0.githubusercontent.com/u/3983683?s=460&v=4" width="45px">
 </a>
 <a href="https://github.com/fanchenggang">  
     <img src="https://avatars2.githubusercontent.com/u/8225921?s=460&v=4" width="45px">
