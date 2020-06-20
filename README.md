@@ -1,3 +1,5 @@
+如果 Github 访问速度比较慢或者图片无法刷新出来的话，可以转移到[码云](https://gitee.com/SnailClimb/JavaGuide )查看，或者[在线阅读](https://snailclimb.gitee.io/javaguide )。**如果你要提交 issue 或者 pr 的话请到 [Github](https://github.com/Snailclimb/JavaGuide) 提交。**
+
 > JavaGuide 的Star数量虽然比较多，但是它的价值和含金量一定是不能和 Dubbo、Nacos这些优秀的国产开源项目比的。希望国内可以出更多优秀的开源项目！
 >
 > 另外，希望大家对面试不要抱有侥幸的心理，打铁还需自身硬！  我希望这个文档是为你学习  Java 指明方向，而不是用来应付面试用的。加油！奥利给！
@@ -10,8 +12,6 @@
 更多原创内容和干货分享：
 
 1. [公众号—JavaGuide](#公众号) ： 最新原创文章+免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源）
-
-Github用户如果访问速度缓慢的话，可以转移到[码云](https://gitee.com/SnailClimb/JavaGuide )查看，或者[在线阅读](https://snailclimb.gitee.io/javaguide )。
 
 <p align="center">
 <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
@@ -39,11 +39,16 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
       <td align="center" valign="middle">
         <a href="https://github.com/yaonphy/Job-Hunt/blob/master/README.md" target="_blank">
           <img src="https://6a6f-job-hunt-bvzy1-1259590017.tcb.qcloud.la/adForGithub/jobhunt-javaguide400.png" style="margin: 0 auto;width:400px" /></a>
-      </td>
+      </td>     
     </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://mp.weixin.qq.com/s/uXgGt66Df3JC4GM7d0LlZg" target="_blank">
+          <img src="https://imgkr.cn-bj.ufileos.com/75fef802-16f0-4e0b-9d6f-a9173f24a40f.png" style="margin: 0 auto;width:400px" /></a>
+      </td>     
+    </tr>    
   </tbody>
 </table>
-
 
 
 ## 目录
@@ -121,7 +126,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 ### 容器
 
 1. **[Java容器常见面试题/知识点总结](docs/java/collection/Java集合框架常见面试题.md)**
-2. [ArrayList 源码](docs/java/collection/ArrayList.md)  、[LinkedList 源码](docs/java/collection/LinkedList.md)   、[HashMap(JDK1.8)源码](docs/java/collection/HashMap.md)  
+2. 源码分析：[ArrayList 源码](docs/java/collection/ArrayList.md)  、[LinkedList 源码](docs/java/collection/LinkedList.md)   、[HashMap(JDK1.8)源码](docs/java/collection/HashMap.md)  、[ConcurrentHashMap源码](docs/java/collection/ConcurrentHashMap.md)  
 
 ### 并发
 
@@ -135,10 +140,11 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 **必备知识点：**
 
 1. [并发容器总结](docs/java/Multithread/并发容器总结.md)
-2. **[Java线程池学习总结](./docs/java/Multithread/java线程池学习总结.md)**
+2. **线程池**：[Java线程池学习总结](./docs/java/Multithread/java线程池学习总结.md)、[拿来即用的线程池最佳实践](./docs/java/Multithread/best-practice-of-threadpool.md)
 3. [乐观锁与悲观锁](docs/essential-content-for-interview/面试必备之乐观锁与悲观锁.md)
-4. [JUC 中的 Atomic 原子类总结](docs/java/Multithread/Atomic.md)
-5. [AQS 原理以及 AQS 同步组件总结](docs/java/Multithread/AQS.md)
+4. [万字图文深度解析ThreadLocal](docs/java/Multithread/ThreadLocal.md)
+5. [JUC 中的 Atomic 原子类总结](docs/java/Multithread/Atomic.md)
+6. [AQS 原理以及 AQS 同步组件总结](docs/java/Multithread/AQS.md)
 
 ### JVM
 
@@ -164,7 +170,6 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 1. [计算机网络常见面试题](docs/network/计算机网络.md)
 2. [计算机网络基础知识总结](docs/network/干货：计算机网络知识总结.md)
-3. [HTTPS中的TLS](docs/network/HTTPS中的TLS.md)
 
 ## 操作系统
 
@@ -175,6 +180,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 * [后端程序员必备的 Linux 基础知识](docs/operating-system/linux.md)  
 * [Shell 编程入门](docs/operating-system/Shell.md) 
 * [完全使用GNU_Linux学习](docs/operating-system/完全使用GNU_Linux学习.md)
+* [Linux 性能分析工具合集](docs/operating-system/Linux性能分析工具合集.md)
 
 ## 数据结构与算法
 
