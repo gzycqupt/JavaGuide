@@ -1,8 +1,8 @@
+👍推荐 我正在参加[掘金2020创作者计划](https://rank.juejin.cn?t=user&u=JavaGuide&utm_campaign=annual_2020&utm_medium=self_web_share&utm_source=JavaGuide)，如果我的文章对你有帮助的话，欢迎投我一票！原创不易，感恩同行~
+
 👍推荐 [在线阅读](https://snailclimb.gitee.io/javaguide)  (Github 访问速度比较慢可能会导致部分图片无法刷新出来) 
 
 👍推荐 [图解Java+操作系统+HTTP+计算机网络的 PDF 资料](#优质原创PDF资源)
-
-👍推荐 [一个纯粹的 Java 交流社群：简历修改、提问、原创面试小册、手写RPC框架......](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247497451&idx=1&sn=ea566dd64662ff8d5260f079c11c2268&chksm=cea1b920f9d630367eb80666da7b599bb610b9d61c6f956add1ee0a607ddcd61372931808877&token=804689790&lang=zh_CN#rd)
 
 ## 一些闲话：
 
@@ -34,12 +34,14 @@
   <tbody>
     <tr>
        <td align="center" valign="middle">
-        <a href="https://w.url.cn/s/AS6JeXA">
-          <img src="./media/sponsor/kaikeba.png" style="margin: 0 auto;width:450px" /></a>
+        <a href="https://sourl.cn/U7rukQ">
+         <img src="./media/sponsor/知识星球.png" style="margin: 0 auto;width:850px" /></a>
       </td>       
     </tr>
   </tbody>
 </table>
+
+
 
 
 
@@ -159,7 +161,7 @@
 
 ### 新特性
 
-1.  **Java 8** ：[Java 8 新特性总结](docs/java/new-features/Java8新特性总结.md)、[Java 8 学习资源推荐](docs/java/new-features/Java8教程推荐.md)、[Java8 forEach 指南](docs/java/new-features/Java8foreach指南.md)
+1.  **Java 8** ：[Java 8 新特性总结](docs/java/new-features/Java8新特性总结.md)、[Java 8 学习资源推荐](docs/java/new-features/Java8教程推荐.md)、[Java8 forEach 指南](docs/java/new-features/Java8foreach指南.md)、[Java8常用新特性总结](docs/java/new-features/java8-common-new-features.md)
 2.  **Java9~Java14** : [一文带你看遍 JDK9~14 的重要新特性！](./docs/java/new-features/一文带你看遍JDK9到14的重要新特性.md)
 
 ## 网络
@@ -216,6 +218,7 @@
 ### Redis
 
 2. [Redis 常见问题总结](docs/database/Redis/redis-all.md)
+3. [面试/工作必备！3种常用的缓存读写策略！](docs/database/Redis/3种常用的缓存读写策略.md)
 
 ## 系统设计
 
@@ -238,9 +241,10 @@
 
 **重要知识点详解：**
 
-1. **[Spring/Spring 常用注解总结！安排！](./docs/system-design/framework/spring/SpringBoot+Spring常用注解总结.md)** 
+1. **[Spring/Spring Boot 常用注解总结！安排！](./docs/system-design/framework/spring/SpringBoot+Spring常用注解总结.md)** 
 2. **[Spring 事务总结](docs/system-design/framework/spring/Spring事务总结.md)** 
 3. [Spring 中都用到了那些设计模式?](docs/system-design/framework/spring/Spring-Design-Patterns.md)
+4. [面试常问：“讲述一下 SpringBoot 自动装配原理？”](https://www.cnblogs.com/javaguide/p/springboot-auto-config.html)
 
 #### MyBatis
 
@@ -332,7 +336,7 @@ RPC 让调用远程服务调用像调用本地方法那样简单。
 
 1. **RabbitMQ** : [RabbitMQ 入门](docs/system-design/distributed-system/message-queue/RabbitMQ入门看这一篇就够了.md)
 2. **RocketMQ** : [RocketMQ 入门](docs/system-design/distributed-system/message-queue/RocketMQ.md)、[RocketMQ 的几个简单问题与答案](docs/system-design/distributed-system/message-queue/RocketMQ-Questions.md)
-3. **Kafka** ：**[Kafka 常见面试题总结](docs/system-design/distributed-system/message-queue/Kafka常见面试题总结.md)**
+3. **Kafka** ：[Kafka 常见面试题总结](docs/system-design/distributed-system/message-queue/Kafka常见面试题总结.md)
 
 #### 读写分离
 
